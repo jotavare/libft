@@ -1,7 +1,7 @@
 ## Libft
 
 <p align="center">
-  <img src="https://github.com/jotavare/libft/42_libft_banner.png">
+  <img src="https://github.com/jotavare/libft/blob/master/42_libft_banner.jpg">
 </p>
 
 <p align="center">
