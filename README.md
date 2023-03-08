@@ -39,13 +39,13 @@ Grade: 125/100. Finished: 2022-12-22.
 The mandatory functions of libft are either functions from the standard C library or other useful functions. They are mostly useful for character, string and memory manipulation. These 34 mandatory functions must be done correctly to get a 100% grade.
 
 Functions to check and manipulate characters:
-- ft_isalpha
-- ft_isdigit
-- ft_isalnum
-- ft_isascii
-- ft_isprint
-- ft_toupper
-- ft_tolower
+``ft_isalpha``
+``ft_isdigit``
+``ft_isalnum``
+``ft_isascii``
+``ft_isprint``
+``ft_toupper``
+``ft_tolower``
 
 Functions to manipulate strings:
 - ft_strlen
