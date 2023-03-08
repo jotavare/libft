@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-	<img src="https://img.shields.io/badge/status-finished-success" />
+	<img src="https://img.shields.io/badge/status-finished-success?style=flat-square" />
 	<img src="https://img.shields.io/badge/evaluated-22%20%2F%2012%20%2F%202022-success" />
 	<img src="https://img.shields.io/badge/score-125%20%2F%20100-success" />
 	<img src="https://img.shields.io/github/languages/top/jotavare/libft" />
