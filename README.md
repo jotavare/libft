@@ -40,13 +40,13 @@ The mandatory functions of libft are either functions from the standard C librar
 
 Functions to check and manipulate characters:
 
-``ft_isalpha``
-``ft_isdigit``
-``ft_isalnum``
-``ft_isascii``
-``ft_isprint``
-``ft_toupper``
-``ft_tolower``
+- ``ft_isalpha``
+- ``ft_isdigit``
+- ``ft_isalnum``
+- ``ft_isascii``
+- ``ft_isprint``
+- ``ft_toupper``
+- ``ft_tolower``
 
 Functions to manipulate strings:
 
