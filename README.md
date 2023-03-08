@@ -37,40 +37,40 @@ The mandatory functions of libft are either functions from the standard C librar
 
 #### Functions to check and manipulate characters:
 
-- ``ft_isalpha``
-- ``ft_isdigit``
-- ``ft_isalnum``
-- ``ft_isascii``
-- ``ft_isprint``
-- ``ft_toupper``
-- ``ft_tolower``
+* ``ft_isalpha``
+* ``ft_isdigit``
+* ``ft_isalnum``
+* ``ft_isascii``
+* ``ft_isp* rint``
+* ``ft_toupper``
+* ``ft_tolower``
 
 #### Functions to manipulate strings:
 
-``ft_strlen``
-``ft_strlcpy``
-``ft_strlcat``
-``ft_strchr``
-``ft_strrchr``
-``ft_strncmp``
-``ft_strnstr``
-``ft_substr``
-``ft_strjoin``
-``ft_strtrim``
-``ft_split``
-``ft_strmapi``
-``ft_striteri``
+* ``ft_strlen``
+* ``ft_strlcpy``
+* ``ft_strlcat``
+* ``ft_strchr``
+* ``ft_strrchr``
+* ``ft_strncmp``
+* ``ft_strnstr``
+* ``ft_substr``
+* ``ft_strjoin``
+* ``ft_strtrim``
+* ``ft_split``
+* ``ft_strmapi``
+* ``ft_striteri``
 
 #### Functions to manipulate memory:
 
-``ft_calloc``
-``ft_memset``
-``ft_bzero``
-``ft_memcpy``
-``ft_memmove``
-``ft_memchr``
-``ft_memcmp``
-``ft_strdup``
+* ``ft_calloc``
+* ``ft_memset``
+* ``ft_bzero``
+* ``ft_memcpy``
+* ``ft_memmove``
+* ``ft_memchr``
+* ``ft_memcmp``
+* ``ft_strdup``
 
 #### Functions for numbers:
 
@@ -79,23 +79,23 @@ The mandatory functions of libft are either functions from the standard C librar
 
 #### Functions to write to a file descriptor:
 
-``ft_putchar_fd``
-``ft_putstr_fd``
-``ft_putendl_fd``
-``ft_putnbr_fd``
+* ``ft_putchar_fd``
+* ``ft_putstr_fd``
+* ``ft_putendl_fd``
+* ``ft_putnbr_fd``
 
-## Bonus Functions
+## Bonus
 The bonus functions of libft deal with list manipulation. This part is worth an extra 25% to the final grade.
 
-``ft_lstnew``
-``ft_lstadd_front``
-``ft_lstsize``
-``ft_lstlast``
-``ft_lstadd_back``
-``ft_lstdelone``
-``ft_lstclear``
-``ft_lstiter``
-``ft_lstmap``
+* ``ft_lstnew``
+* ``ft_lstadd_front``
+* ``ft_lstsize``
+* ``ft_lstlast``
+* ``ft_lstadd_back``
+* ``ft_lstdelone``
+* ``ft_lstclear``
+* ``ft_lstiter``
+* ``ft_lstmap``
 
 <p align="center">
 This work is published under the terms of <a href="https://github.com/gcamerli/42unlicense">42 Unlicense</a>.
