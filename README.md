@@ -1,9 +1,5 @@
 # libft
 
-<p align="center">
-  <img src="https://github.com/mcombeau/mcombeau/blob/main/42_badges/libfte.png" />
-</p>
-
 42 school's first project, libft, is about learning how the standard functions of C programming work, by coding them from scratch and creating our very own library.
 
 Libft is a very important project, since this library will be used in future 42 school assignments. If you are a 42 student, I highly recommend you go through the trial and error process of writing your own code and testing it yourself, rather than copy-pasting code you only half-understand. If you've succeeded your piscine, there is no reason you couldn't figure this project out for yourself! Be patient and thorough.
