@@ -12,7 +12,6 @@
 
 <p align="center">
 	<a href="#about">About</a> •
-	<a href="#status">Status</a> •
 	<a href="#how-to-use">How to use</a> •
 	<a href="#included-functions">Included Functions</a>
 </p>
@@ -24,9 +23,6 @@ Libft is a very important project, since this library will be used in future 42 
 
 <a href="https://github.com/jotavare/libft/blob/master/subject/en_subject_libft.pdf">Click here</a> for the subject of this project.
 
-## Status
-Grade: 125/100. Finished: 2022-12-22. 
-
 ## How to use
 ``make`` - Compile mandatory functions.
 
@@ -36,12 +32,10 @@ Grade: 125/100. Finished: 2022-12-22.
 
 ``make fclean`` - Delete all .o files and .a.
 
-## Included Functions
-
-### Mandatory Functions
+## Mandatory Functions
 The mandatory functions of libft are either functions from the standard C library or other useful functions. They are mostly useful for character, string and memory manipulation. These 34 mandatory functions must be done correctly to get a 100% grade.
 
-Functions to check and manipulate characters:
+#### Functions to check and manipulate characters:
 
 - ``ft_isalpha``
 - ``ft_isdigit``
@@ -51,7 +45,7 @@ Functions to check and manipulate characters:
 - ``ft_toupper``
 - ``ft_tolower``
 
-Functions to manipulate strings:
+#### Functions to manipulate strings:
 
 ``ft_strlen``
 ``ft_strlcpy``
@@ -67,7 +61,7 @@ Functions to manipulate strings:
 ``ft_strmapi``
 ``ft_striteri``
 
-Functions to manipulate memory:
+#### Functions to manipulate memory:
 
 ``ft_calloc``
 ``ft_memset``
@@ -78,19 +72,19 @@ Functions to manipulate memory:
 ``ft_memcmp``
 ``ft_strdup``
 
-Functions for numbers:
+#### Functions for numbers:
 
 ``ft_atoi``
 ``ft_itoa``
 
-Functions to write to a file descriptor:
+#### Functions to write to a file descriptor:
 
 ``ft_putchar_fd``
 ``ft_putstr_fd``
 ``ft_putendl_fd``
 ``ft_putnbr_fd``
 
-### Bonus Functions
+## Bonus Functions
 The bonus functions of libft deal with list manipulation. This part is worth an extra 25% to the final grade.
 
 ``ft_lstnew``
