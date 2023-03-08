@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/jotavare/libft/blob/master/42_libft_banner.jpg">
+  <img src="https://github.com/jotavare/libft/blob/master/42_libft_banner.png">
 </p>
 
 <p align="center">
