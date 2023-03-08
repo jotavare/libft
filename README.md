@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="#key-features">Status</a> •
+  <a href="#status">Status</a> •
   <a href="#how-to-use">How to use</a> •
   <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
