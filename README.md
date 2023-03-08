@@ -10,10 +10,7 @@
 <p align="center">
   <a href="#status">Status</a> •
   <a href="#how-to-use">How to use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
+  <a href="#included-functions">Included Functions</a> •
 </p>
 
 42 school's first project, libft, is about learning how the standard functions of C programming work, by coding them from scratch and creating our very own library.
@@ -23,7 +20,7 @@ Libft is a very important project, since this library will be used in future 42 
 ## Status
 Grade: 125/100. Finished: 2022-12-22. 
 
-## Usage
+## How to use
 ``make`` - Compile mandatory functions.
 
 ``make bonus`` - Compile with bonus functions.
