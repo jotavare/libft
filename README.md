@@ -8,9 +8,9 @@
 </p>
 
 <p align="center">
-  <a href="#status">Status</a> •
-  <a href="#how-to-use">How to use</a> •
-  <a href="#included-functions">Included Functions</a> •
+	<a href="#status">Status</a> •
+	<a href="#how-to-use">How to use</a> •
+	<a href="#included-functions">Included Functions</a>
 </p>
 
 42 school's first project, libft, is about learning how the standard functions of C programming work, by coding them from scratch and creating our very own library.
