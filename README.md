@@ -8,9 +8,9 @@
 </p>
 
 <p align="center">
-	<a href="#libft">Libft</a> •
-	<a href="#status">Status</a> •
-	<a href="#how-to-use">How to use</a> •
+	<a href="#libft">Libft</a> |
+	<a href="#status">Status</a> |
+	<a href="#how-to-use">How to use</a> |
 	<a href="#included-functions">Included Functions</a>
 </p>
 
