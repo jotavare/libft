@@ -10,11 +10,11 @@ Grade: 125/100. Finished: 2022-12-22.
 ## Usage
 ``make`` - Compile mandatory functions.
 
-``make bonus`` Compile with bonus functions.
+``make bonus`` - Compile with bonus functions.
 
-``make clean`` Delete all .o files.
+``make clean`` - Delete all .o files.
 
-``make fclean`` Delete all .o files and .a.
+``make fclean`` - Delete all .o files and .a.
 
 ## Included Functions
 
