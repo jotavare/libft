@@ -33,7 +33,7 @@ Libft is a very important project, since this library will be used in future 42 
 
 ``make fclean`` - Delete all .o files and .a.
 
-## Mandatory Functions
+## Mandatory
 The mandatory functions of libft are either functions from the standard C library or other useful functions. They are mostly useful for character, string and memory manipulation. These 34 mandatory functions must be done correctly to get a 100% grade.
 
 #### Functions to check and manipulate characters:
