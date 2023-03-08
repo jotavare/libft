@@ -1,12 +1,13 @@
 ## Libft
 
 <p align="center">
-	<img src="https://img.shields.io/badge/score-100%20%2F%20100-success?style=for-the-badge" />
-	<img src="https://img.shields.io/github/languages/code-size/jotavare/libft?style=for-the-badge" />
-	<img src="https://img.shields.io/github/languages/count/jotavare/libft?style=for-the-badge" />
-	<img src="https://img.shields.io/github/languages/top/jotavare/libft?style=for-the-badge" />
-	<img src="https://img.shields.io/github/last-commit/jotavare/libft?style=for-the-badge" />
+	<img src="https://img.shields.io/badge/status-done-success" />
+	<img src="https://img.shields.io/github/languages/top/jotavare/libft" />
+	<img src="https://img.shields.io/badge/score-125%20%2F%20100-success" />
+	<img src="https://img.shields.io/github/last-commit/jotavare/libft" />
 </p>
+
+<img src="https://img.shields.io/badge/status-done-success" /> |<img src="https://img.shields.io/github/languages/top/jotavare/libft" /> | <img src="https://img.shields.io/badge/score-125%20%2F%20100-success" /> | <img src="https://img.shields.io/github/last-commit/jotavare/libft" /> |
 
 42 school's first project, libft, is about learning how the standard functions of C programming work, by coding them from scratch and creating our very own library.
 
