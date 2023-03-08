@@ -74,8 +74,8 @@ The mandatory functions of libft are either functions from the standard C librar
 
 #### Functions for numbers:
 
-``ft_atoi``
-``ft_itoa``
+* ``ft_atoi``
+* ``ft_itoa``
 
 #### Functions to write to a file descriptor:
 
