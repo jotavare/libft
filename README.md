@@ -14,7 +14,7 @@
 	<a href="#about">About</a> •
 	<a href="#how-to-use">How to use</a> •
 	<a href="#mandatory">Mandatory</a> •
-	<a href="#bonus">Bonus</a>
+	<a href="#bonus">Bonus</a> •
 	<a href="#license">License</a>
 </p>
 
@@ -100,6 +100,6 @@ The bonus functions of libft deal with list manipulation. This part is worth an 
 * ``ft_lstmap``
 
 ## License
-<p align="center">
+<p>
 This work is published under the terms of <a href="https://github.com/gcamerli/42unlicense">42 Unlicense</a>.
 </p>
