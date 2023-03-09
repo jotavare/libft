@@ -44,7 +44,7 @@ Libft is a very important project, since this library will be used in future 42 
 
 ``make clean`` - Delete all .o (object files) files.
 
-``make fclean`` - Delete all .o (object files) and .a (executables) files.
+``make fclean`` - Delete all .o (object files) and .a (executable) files.
 
 ``make re`` - use rules `fclean` + `all`
 
