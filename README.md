@@ -51,7 +51,7 @@ Libft is a very important project, since this library will be used in future 42 
 ``make re`` - use rules `fclean` + `all`
 
 ## MANDATORY
-The mandatory functions of libft are either functions from the standard C library or other useful functions. They are mostly useful for character, string and memory manipulation. These 34 mandatory functions must be done correctly to get a 100% grade.
+The mandatory functions of libft are either functions from the standard C library or other useful functions. They are mostly useful for character, string and memory manipulation. These **34 mandatory functions** must be done correctly to get a **100% grade**.
 
 #### Functions to check and manipulate characters:
 
@@ -59,7 +59,6 @@ The mandatory functions of libft are either functions from the standard C librar
 * ``ft_isdigit``
 * ``ft_isalnum``
 * ``ft_isascii``
-* ``ft_isp* rint``
 * ``ft_toupper``
 * ``ft_tolower``
 
@@ -103,7 +102,7 @@ The mandatory functions of libft are either functions from the standard C librar
 * ``ft_putnbr_fd``
 
 ## BONUS
-The bonus functions of libft deal with list manipulation. This part is worth an extra 25% to the final grade.
+The bonus functions of libft deal with list manipulation. This part is worth an extra 25% to the final grade. These **9 bonus functions + 34 from mandatory** must be done correctly to get a **125% grade**.
 
 * ``ft_lstnew``
 * ``ft_lstadd_front``
