@@ -18,23 +18,37 @@
 	<a href="#license">License</a>
 </p>
 
-## About
+## ABOUT
 42 school's first project, libft, is about learning how the standard functions of C programming work, by coding them from scratch and creating our very own library.
 
 Libft is a very important project, since this library will be used in future 42 school assignments. If you are a 42 student, I highly recommend you go through the trial and error process of writing your own code and testing it yourself, rather than copy-pasting code you only half-understand. If you've succeeded your piscine, there is no reason you couldn't figure this project out for yourself! Be patient and thorough.
 
 <a href="https://github.com/jotavare/libft/blob/master/subject/en_subject_libft.pdf">Click here</a> for the subject of this project.
 
-## How to use
-``make`` - Compile mandatory functions.
+## HOW TO USE
+#### 1 - Clone the repository
+```bash
+  git clone https://github.com/jotavare/libft.git
+```
+#### 2 - Enter the project folder and run `make`
+```bash
+  cd libft\libft
+  make
+```
 
-``make bonus`` - Compile with bonus functions.
+`make` - Compile libft mandatory functions.
 
-``make clean`` - Delete all .o files.
+``make bonus`` - Compile libft bonus functions.
 
-``make fclean`` - Delete all .o files and .a.
+``make all`` - Compile all functions.
 
-## Mandatory
+``make clean`` - Delete all .o (object files) files.
+
+``make fclean`` - Delete all .o (object files) and .a (executables) files.
+
+``make re`` - use rules `fclean` + `all`
+
+## MANDATORY
 The mandatory functions of libft are either functions from the standard C library or other useful functions. They are mostly useful for character, string and memory manipulation. These 34 mandatory functions must be done correctly to get a 100% grade.
 
 #### Functions to check and manipulate characters:
@@ -86,7 +100,7 @@ The mandatory functions of libft are either functions from the standard C librar
 * ``ft_putendl_fd``
 * ``ft_putnbr_fd``
 
-## Bonus
+## BONUS
 The bonus functions of libft deal with list manipulation. This part is worth an extra 25% to the final grade.
 
 * ``ft_lstnew``
@@ -99,7 +113,7 @@ The bonus functions of libft deal with list manipulation. This part is worth an 
 * ``ft_lstiter``
 * ``ft_lstmap``
 
-## License
+## LICENSE
 <p>
 This work is published under the terms of <a href="https://github.com/gcamerli/42unlicense">42 Unlicense</a>.
 </p>
