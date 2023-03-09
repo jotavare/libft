@@ -116,6 +116,9 @@ The bonus functions of libft deal with list manipulation. This part is worth an 
 * ``ft_lstmap``
 
 ## LICENSE
+ADD TESTER
+
+## LICENSE
 <p>
 This work is published under the terms of <a href="https://github.com/gcamerli/42unlicense">42 Unlicense</a>.
 </p>
