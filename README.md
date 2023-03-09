@@ -26,15 +26,17 @@ Libft is a very important project, since this library will be used in future 42 
 <a href="https://github.com/jotavare/libft/blob/master/subject/en_subject_libft.pdf">Click here</a> for the subject of this project.
 
 ## HOW TO USE
-#### 1 - Clone the repository
+#### 1º - Clone the repository
 ```bash
   git clone https://github.com/jotavare/libft.git
 ```
-#### 2 - Enter the project folder and run `make`
+#### 2º - Enter the project folder and run `make`
 ```bash
   cd libft\libft
   make
 ```
+
+#### MAKEFILE RULES
 
 `make` - Compile libft mandatory functions.
 
