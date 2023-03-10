@@ -15,6 +15,7 @@
 	<a href="#how-to-use">How to use</a> •
 	<a href="#mandatory">Mandatory</a> •
 	<a href="#bonus">Bonus</a> •
+	<a href="#bonus">Testers</a> •
 	<a href="#license">License</a>
 </p>
 
@@ -28,7 +29,7 @@ If you're a 42 student, it's highly recommended that you go through the process 
 ## HOW TO USE
 #### 1º - Clone the repository
 ```bash
-  git clone https://github.com/jotavare/libft.git
+  git clone git@github.com:jotavare/libft.git
 ```
 #### 2º - Enter the project folder and run `make`
 ```bash
@@ -51,7 +52,7 @@ If you're a 42 student, it's highly recommended that you go through the process 
 ``make re`` - use rules `fclean` + `all`
 
 ## MANDATORY
-The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These 34 mandatory functions are essential to achieving a grade of 100%.
+The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100%**.
 
 #### Functions to check and manipulate characters:
 
@@ -102,7 +103,7 @@ The mandatory functions in libft include both functions from the standard C libr
 * ``ft_putnbr_fd``
 
 ## BONUS
-The bonus functions in libft are focused on list manipulation and are worth an additional 25% towards the final grade. To achieve a grade of 125%, all 9 bonus functions and 34 mandatory functions must be completed accurately.
+The bonus functions in libft are focused on list manipulation and are worth an additional 25% towards the final grade. To achieve a **grade of 125%**, **all 9 bonus functions and 34 mandatory functions** must be completed accurately.
 
 * ``ft_lstnew``
 * ``ft_lstadd_front``
@@ -114,8 +115,12 @@ The bonus functions in libft are focused on list manipulation and are worth an a
 * ``ft_lstiter``
 * ``ft_lstmap``
 
-## LICENSE
-ADD TESTER
+## TESTERS
+* [Francinette](https://github.com/xicodomingues/francinette)
+* [Libft Tester](https://github.com/Tripouille/libftTester)
+* [Libft Unit Test](https://github.com/alelievr/libft-unit-test)
+* [Libft Test](https://github.com/jtoty/Libftest)
+* [Libft War Machine](https://github.com/0x050f/libft-war-machine)
 
 ## LICENSE
 <p>
