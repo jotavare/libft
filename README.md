@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/jotavare/libft/blob/master/subject/42_libft_banner.png">
+  <img src="https://github.com/jotavare/jotavare/blob/main/42_banners/42_banner_libft.png">
 </p>
 
 <p align="center">
@@ -125,5 +125,5 @@ The bonus functions in libft are focused on list manipulation and are worth an a
 
 ## LICENSE
 <p>
-This work is published under the terms of <a href="https://github.com/gcamerli/42unlicense">42 Unlicense</a>.
+This work is published under the terms of <a href="https://github.com/jotavare/jotavare/blob/main/LICENSE">42 Unlicense</a>.
 </p>
