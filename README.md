@@ -28,11 +28,11 @@ If you're a 42 student, it's highly recommended that you go through the process 
 
 ## HOW TO USE
 #### COMPILE
-#### 1º - Clone the repository
+##### 1º - Clone the repository
 ```bash
   git clone git@github.com:jotavare/libft.git
 ```
-#### 2º - Enter the project folder and run `make`
+##### 2º - Enter the project folder and run `make`
 ```bash
   cd libft\libft
   make
