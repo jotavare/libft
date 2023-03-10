@@ -15,6 +15,7 @@
 	<a href="#how-to-use">How to use</a> •
 	<a href="#mandatory">Mandatory</a> •
 	<a href="#bonus">Bonus</a> •
+	<a href="#disclaimer">Disclaimer</a> •
 	<a href="#testers">Testers</a> •
 	<a href="#license">License</a>
 </p>
@@ -115,6 +116,19 @@ The bonus functions in libft are focused on list manipulation and are worth an a
 * ``ft_lstclear``
 * ``ft_lstiter``
 * ``ft_lstmap``
+
+## DISCLAIMER
+At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
+
+```bash
+- No for, do while, switch, case or goto are allowed
+- No more than 25 lines per function and 5 functions per file
+- No assigns and declarations in the same line (unless static)
+- No more than 5 variables in 1 function
+- ...
+```
+
+<a href="https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf">Click here</a> for more information on 42 norms.
 
 ## TESTERS
 * [Francinette](https://github.com/xicodomingues/francinette)
