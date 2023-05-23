@@ -129,10 +129,9 @@ At 42 School, it is expected that almost every project is written in accordance 
 - No more than 5 variables in 1 function
 - ...
 ```
-<p>
-[42 Norms](https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf) `PDF`
-[Norminette](https://github.com/42School/norminette) `GitHub`
-</p>
+
+* [42 Norms](https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf) `PDF`
+* [Norminette](https://github.com/42School/norminette) `GitHub`
 	
 ## TESTERS
 * [Francinette](https://github.com/xicodomingues/francinette) `GitHub`
