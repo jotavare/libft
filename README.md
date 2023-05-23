@@ -119,7 +119,7 @@ The bonus functions in libft are focused on list manipulation and are worth an a
 * ``ft_lstiter``
 * ``ft_lstmap``
 
-## DISCLAIMER
+## NORMINETTE
 At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
 
 ```bash
@@ -130,14 +130,15 @@ At 42 School, it is expected that almost every project is written in accordance 
 - ...
 ```
 
-<a href="https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf">Click here</a> for more information on 42 norms.
+[42 Norms](https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf) `PDF`
+[Norminette](https://github.com/42School/norminette) `GitHub`
 
 ## TESTERS
-* [Francinette](https://github.com/xicodomingues/francinette)
-* [Libft Tester](https://github.com/Tripouille/libftTester)
-* [Libft Unit Test](https://github.com/alelievr/libft-unit-test)
-* [Libft Test](https://github.com/jtoty/Libftest)
-* [Libft War Machine](https://github.com/0x050f/libft-war-machine)
+* [Francinette](https://github.com/xicodomingues/francinette) `GitHub`
+* [Libft Tester](https://github.com/Tripouille/libftTester) `GitHub`
+* [Libft Unit Test](https://github.com/alelievr/libft-unit-test) `GitHub`
+* [Libft Test](https://github.com/jtoty/Libftest) `GitHub`
+* [Libft War Machine](https://github.com/0x050f/libft-war-machine) `GitHub`
 
 ## LICENSE
 <p>
