@@ -130,8 +130,8 @@ At 42 School, it is expected that almost every project is written in accordance 
 - ...
 ```
 
-* [42 Norms](https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf) `PDF`
-* [Norminette](https://github.com/42School/norminette) `GitHub`
+* [42 Norms](https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf) - Information about 42 code norms. `PDF`
+* [Norminette](https://github.com/42School/norminette) - Tool by 42, to check that the code respects the norm. `GitHub`
 	
 ## TESTERS
 * [Francinette](https://github.com/xicodomingues/francinette) `GitHub`
