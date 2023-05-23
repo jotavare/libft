@@ -122,7 +122,7 @@ The bonus functions in libft are focused on list manipulation and are worth an a
 ## NORMINETTE
 At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
 
-```bash
+```
 - No for, do while, switch, case or goto are allowed
 - No more than 25 lines per function and 5 functions per file
 - No assigns and declarations in the same line (unless static)
