@@ -44,15 +44,15 @@ make
 
 `make` - Compile libft mandatory functions.
 
-``make bonus`` - Compile libft bonus functions.
+`make bonus` - Compile libft bonus functions.
 
-``make all`` - Compile mandatory + bonus functions.
+`make all` - Compile mandatory + bonus functions.
 
-``make clean`` - Delete all .o (object files) files.
+`make clean` - Delete all .o (object files) files.
 
-``make fclean`` - Delete all .o (object files) and .a (executable) files.
+`make fclean` - Delete all .o (object files) and .a (executable) files.
 
-``make re`` - use rules `fclean` + `all`.
+`make re` - use rules `fclean` + `all`.
 
 ## MANDATORY
 The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100**.
@@ -122,12 +122,12 @@ The bonus functions in libft are focused on list manipulation and are worth an a
 At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
 
 ```
-- No for, do...while, switch, case, goto, ternary operators and variable lenght arrays are allowed;
-- Each function must be maximum 25 lines, not counting the function's own curly brackets;
-- Each line must be at most 80 columns wide, comments included;
-- A function can take 4 named parameters maximum;
-- No assigns and declarations in the same line (unless static);
-- You can't declare more than 5 variables per function;
+- No for, do...while, switch, case, goto, ternary operators and variable lenght arrays are allowed
+- Each function must be maximum 25 lines, not counting the function's own curly brackets
+- Each line must be at most 80 columns wide, comments included
+- A function can take 4 named parameters maximum
+- No assigns and declarations in the same line (unless static)
+- You can't declare more than 5 variables per function
 - ...
 ```
 
