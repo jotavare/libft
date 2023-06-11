@@ -55,7 +55,7 @@ make
 ``make re`` - use rules `fclean` + `all`.
 
 ## MANDATORY
-The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100%**.
+The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100**.
 
 #### Functions to check and manipulate characters:
 
@@ -106,7 +106,7 @@ The mandatory functions in libft include both functions from the standard C libr
 * ``ft_putnbr_fd``
 
 ## BONUS
-The bonus functions in libft are focused on list manipulation and are worth an additional 25% towards the final grade. To achieve a **grade of 125%**, **all 9 bonus functions and 34 mandatory functions** must be completed accurately.
+The bonus functions in libft are focused on list manipulation and are worth an additional 25 towards the final grade. To achieve a **grade of 125**, **all 9 bonus functions and 34 mandatory functions** must be completed accurately.
 
 * ``ft_lstnew``
 * ``ft_lstadd_front``
