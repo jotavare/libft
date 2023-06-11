@@ -46,13 +46,13 @@ make
 
 ``make bonus`` - Compile libft bonus functions.
 
-``make all`` - Compile all functions.
+``make all`` - Compile mandatory + bonus functions.
 
 ``make clean`` - Delete all .o (object files) files.
 
 ``make fclean`` - Delete all .o (object files) and .a (executable) files.
 
-``make re`` - use rules `fclean` + `all`
+``make re`` - use rules `fclean` + `all`.
 
 ## MANDATORY
 The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100%**.
