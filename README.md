@@ -18,7 +18,6 @@
 	<a href="#mandatory">Mandatory</a> •
 	<a href="#bonus">Bonus</a> •
 	<a href="#disclaimer">Disclaimer</a> •
-	<a href="#testers">Testers</a> •
 	<a href="#license">License</a>
 </p>
 
@@ -133,13 +132,6 @@ At 42 School, it is expected that almost every project is written in accordance 
 * [42 Norms](https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf) - Information about 42 code norms. `PDF`
 * [Norminette](https://github.com/42School/norminette) - Tool by 42, to check that the code respects the norm. `GitHub`
 * [42 Header](https://github.com/42Paris/42header) `GitHub`
-	
-## TESTERS
-* [Francinette](https://github.com/xicodomingues/francinette) `GitHub`
-* [Libft Tester](https://github.com/Tripouille/libftTester) `GitHub`
-* [Libft Unit Test](https://github.com/alelievr/libft-unit-test) `GitHub`
-* [Libft Test](https://github.com/jtoty/Libftest) `GitHub`
-* [Libft War Machine](https://github.com/0x050f/libft-war-machine) `GitHub`
 
 ## LICENSE
 <p>
