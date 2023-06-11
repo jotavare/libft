@@ -29,7 +29,7 @@ If you're a 42 student, it's highly recommended that you go through the process 
 <a href="https://github.com/jotavare/libft/blob/master/subject/en_subject_libft.pdf">Click here</a> for the subject of this project.
 
 ## HOW TO USE
-#### COMPILE
+#### COMPILATION
 #### 1º - Clone the repository
 ```bash
 git clone git@github.com:jotavare/libft.git
