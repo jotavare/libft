@@ -43,11 +43,11 @@ make
 
 #### MAKEFILE RULES
 
-`make` - Compile libft mandatory files.
+`make` - Compile libft **mandatory** files.
 
-`make bonus` - Compile libft bonus files.
+`make bonus` - Compile libft **bonus** files.
 
-`make all` - Compile mandatory + bonus files.
+`make all` - Compile **mandatory** + **bonus** files.
 
 `make clean` - Delete all .o (object files) files.
 
@@ -58,7 +58,7 @@ make
 ## MANDATORY
 The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100**.
 
-#### Functions to check and manipulate characters:
+#### Check and manipulate characters:
 
 - [x] `ft_isalpha`
 - [x] `ft_isdigit`
@@ -67,7 +67,7 @@ The mandatory functions in libft include both functions from the standard C libr
 - [x] `ft_toupper`
 - [x] `ft_tolower`
 
-#### Functions to manipulate strings:
+#### Manipulate strings:
 
 - [x] `ft_strlen`
 - [x] `ft_strlcpy`
@@ -83,7 +83,7 @@ The mandatory functions in libft include both functions from the standard C libr
 - [x] `ft_strmapi`
 - [x] `ft_striteri`
 
-#### Functions to manipulate memory:
+#### Manipulate memory:
 
 - [x] `ft_calloc`
 - [x] `ft_memset`
@@ -94,12 +94,12 @@ The mandatory functions in libft include both functions from the standard C libr
 - [x] `ft_memcmp`
 - [x] `ft_strdup`
 
-#### Functions for numbers:
+#### Manipulate numbers:
 
 - [x] `ft_atoi`
 - [x] `ft_itoa`
 
-#### Functions to write to a file descriptor:
+#### Write to a file descriptor:
 
 - [x] `ft_putchar_fd`
 - [x] `ft_putstr_fd`
