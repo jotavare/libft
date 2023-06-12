@@ -1,13 +1,15 @@
 <p align="center">
-  <img src="https://github.com/jotavare/libft/blob/master/subject/42_libft_banner.png">
+  <img src="https://github.com/jotavare/jotavare/blob/main/42/banner/new/42_libft_banner_new.png">
 </p>
 
 <p align="center">
 	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/badge/evaluated-22%20%2F%2012%20%2F%202022-success?color=%2312bab9&style=flat-square" />
+	<img src="https://img.shields.io/badge/evaluated-24%20%2F%2011%20%2F%202022-success?color=%2312bab9&style=flat-square" />
 	<img src="https://img.shields.io/badge/score-125%20%2F%20100-success?color=%2312bab9&style=flat-square" />
 	<img src="https://img.shields.io/github/languages/top/jotavare/libft?color=%2312bab9&style=flat-square" />
 	<img src="https://img.shields.io/github/last-commit/jotavare/libft?color=%2312bab9&style=flat-square" />
+	<a href='https://www.linkedin.com/in/joaoptoliveira' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-100000?style=flat-square&logo=Linkedin&logoColor=white&labelColor=0A66C2&color=0A66C2'/></a>
+	<a href='https://profile.intra.42.fr/users/jotavare' target="_blank"><img alt='42' src='https://img.shields.io/badge/Porto-100000?style=flat-square&logo=42&logoColor=white&labelColor=000000&color=000000'/></a>
 </p>
 
 <p align="center">
@@ -15,91 +17,131 @@
 	<a href="#how-to-use">How to use</a> •
 	<a href="#mandatory">Mandatory</a> •
 	<a href="#bonus">Bonus</a> •
+	<a href="#norminette">Norminette</a> •
 	<a href="#license">License</a>
 </p>
 
-## About
-42 school's first project, libft, is about learning how the standard functions of C programming work, by coding them from scratch and creating our very own library.
+## ABOUT
+The first project at 42, libft, involves learning how the standard functions of C programming work by writing them from scratch and creating a personal library. This project is vital as the library will be used in future assignments at 42.
 
-Libft is a very important project, since this library will be used in future 42 school assignments. If you are a 42 student, I highly recommend you go through the trial and error process of writing your own code and testing it yourself, rather than copy-pasting code you only half-understand. If you've succeeded your piscine, there is no reason you couldn't figure this project out for yourself! Be patient and thorough.
+If you're a 42 student, it's highly recommended that you go through the process of writing your own code and testing it yourself rather than copying and pasting code that you only partially understand. If you've successfully completed your piscine, there's no reason why you couldn't tackle this project on your own! Be patient and thorough.
 
 <a href="https://github.com/jotavare/libft/blob/master/subject/en_subject_libft.pdf">Click here</a> for the subject of this project.
 
-## How to use
-``make`` - Compile mandatory functions.
+## HOW TO USE
+#### COMPILATION
+#### 1º - Clone the repository
+```bash
+git clone git@github.com:jotavare/libft.git
+```
 
-``make bonus`` - Compile with bonus functions.
+#### 2º - Enter the project folder and run `make`
+```bash
+cd libft/libft
+make
+```
 
-``make clean`` - Delete all .o files.
+#### 3º - To use in your code, include the header
+```c
+#include "libft.h"
+```
 
-``make fclean`` - Delete all .o files and .a.
+#### MAKEFILE RULES
 
-## Mandatory
-The mandatory functions of libft are either functions from the standard C library or other useful functions. They are mostly useful for character, string and memory manipulation. These 34 mandatory functions must be done correctly to get a 100% grade.
+`make` - Compile libft **mandatory** files.
 
-#### Functions to check and manipulate characters:
+`make bonus` - Compile libft **bonus** files.
 
-* ``ft_isalpha``
-* ``ft_isdigit``
-* ``ft_isalnum``
-* ``ft_isascii``
-* ``ft_isp* rint``
-* ``ft_toupper``
-* ``ft_tolower``
+`make all` - Compile **mandatory** + **bonus** files.
 
-#### Functions to manipulate strings:
+`make clean` - Delete all .o (object files) files.
 
-* ``ft_strlen``
-* ``ft_strlcpy``
-* ``ft_strlcat``
-* ``ft_strchr``
-* ``ft_strrchr``
-* ``ft_strncmp``
-* ``ft_strnstr``
-* ``ft_substr``
-* ``ft_strjoin``
-* ``ft_strtrim``
-* ``ft_split``
-* ``ft_strmapi``
-* ``ft_striteri``
+`make fclean` - Delete all .o (object file) and .a (executable) files.
 
-#### Functions to manipulate memory:
+`make re` - Use rules `fclean` + `all`.
 
-* ``ft_calloc``
-* ``ft_memset``
-* ``ft_bzero``
-* ``ft_memcpy``
-* ``ft_memmove``
-* ``ft_memchr``
-* ``ft_memcmp``
-* ``ft_strdup``
+## MANDATORY
+The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100**.
 
-#### Functions for numbers:
+#### Check and manipulate characters:
 
-* ``ft_atoi``
-* ``ft_itoa``
+- [x] `ft_isalpha`
+- [x] `ft_isdigit`
+- [x] `ft_isalnum`
+- [x] `ft_isascii`
+- [x] `ft_toupper`
+- [x] `ft_tolower`
 
-#### Functions to write to a file descriptor:
+#### Manipulate strings:
 
-* ``ft_putchar_fd``
-* ``ft_putstr_fd``
-* ``ft_putendl_fd``
-* ``ft_putnbr_fd``
+- [x] `ft_strlen`
+- [x] `ft_strlcpy`
+- [x] `ft_strlcat`
+- [x] `ft_strchr`
+- [x] `ft_strrchr`
+- [x] `ft_strncmp`
+- [x] `ft_strnstr`
+- [x] `ft_substr`
+- [x] `ft_strjoin`
+- [x] `ft_strtrim`
+- [x] `ft_split`
+- [x] `ft_strmapi`
+- [x] `ft_striteri`
 
-## Bonus
-The bonus functions of libft deal with list manipulation. This part is worth an extra 25% to the final grade.
+#### Manipulate memory:
 
-* ``ft_lstnew``
-* ``ft_lstadd_front``
-* ``ft_lstsize``
-* ``ft_lstlast``
-* ``ft_lstadd_back``
-* ``ft_lstdelone``
-* ``ft_lstclear``
-* ``ft_lstiter``
-* ``ft_lstmap``
+- [x] `ft_calloc`
+- [x] `ft_memset`
+- [x] `ft_bzero`
+- [x] `ft_memcpy`
+- [x] `ft_memmove`
+- [x] `ft_memchr`
+- [x] `ft_memcmp`
+- [x] `ft_strdup`
 
-## License
+#### Manipulate numbers:
+
+- [x] `ft_atoi`
+- [x] `ft_itoa`
+
+#### Write to a file descriptor:
+
+- [x] `ft_putchar_fd`
+- [x] `ft_putstr_fd`
+- [x] `ft_putendl_fd`
+- [x] `ft_putnbr_fd`
+
+## BONUS
+The bonus functions in libft are focused on list manipulation and are worth an additional 25 towards the final grade. To achieve a **grade of 125**, **all 9 bonus functions and 34 mandatory functions** must be completed accurately.
+
+- [x] `ft_lstnew`
+- [x] `ft_lstadd_front`
+- [x] `ft_lstsize`
+- [x] `ft_lstlast`
+- [x] `ft_lstadd_back`
+- [x] `ft_lstdelone`
+- [x] `ft_lstclear`
+- [x] `ft_lstiter`
+- [x] `ft_lstmap`
+
+## NORMINETTE
+At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
+
+```
+- No for, do...while, switch, case, goto, ternary operators and variable-length arrays are allowed
+- Each function must be a maximum of 25 lines, not counting the function's curly brackets
+- Each line must be at most 80 columns wide, comments included
+- A function can take 4 named parameters maximum
+- No assigns and declarations in the same line (unless static)
+- You can't declare more than 5 variables per function
+- ...
+```
+
+* [42 Norms](https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf) - Information about 42 code norms. `PDF`
+* [Norminette](https://github.com/42School/norminette) - Tool by 42, to respect the code norm. `GitHub`
+* [42 Header](https://github.com/42Paris/42header) - 42 header for Vim. `GitHub`
+
+## LICENSE
 <p>
-This work is published under the terms of <a href="https://github.com/gcamerli/42unlicense">42 Unlicense</a>.
+This work is published under the terms of <a href="https://github.com/jotavare/jotavare/blob/main/LICENSE">42 Unlicense</a>.
 </p>
