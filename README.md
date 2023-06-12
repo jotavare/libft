@@ -34,6 +34,7 @@ If you're a 42 student, it's highly recommended that you go through the process 
 ```bash
 git clone git@github.com:jotavare/libft.git
 ```
+
 #### 2º - Enter the project folder and run `make`
 ```bash
 cd libft/libft
@@ -42,81 +43,81 @@ make
 
 #### MAKEFILE RULES
 
-`make` - Compile libft mandatory functions.
+`make` - Compile libft mandatory files.
 
-`make bonus` - Compile libft bonus functions.
+`make bonus` - Compile libft bonus files.
 
-`make all` - Compile mandatory + bonus functions.
+`make all` - Compile mandatory + bonus files.
 
 `make clean` - Delete all .o (object files) files.
 
-`make fclean` - Delete all .o (object files) and .a (executable) files.
+`make fclean` - Delete all .o (object file) and .a (executable) files.
 
-`make re` - use rules `fclean` + `all`.
+`make re` - Use rules `fclean` + `all`.
 
 ## MANDATORY
 The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100**.
 
 #### Functions to check and manipulate characters:
 
-* ``ft_isalpha``
-* ``ft_isdigit``
-* ``ft_isalnum``
-* ``ft_isascii``
-* ``ft_toupper``
-* ``ft_tolower``
+- [x] `ft_isalpha`
+- [x] `ft_isdigit`
+- [x] `ft_isalnum`
+- [x] `ft_isascii`
+- [x] `ft_toupper`
+- [x] `ft_tolower`
 
 #### Functions to manipulate strings:
 
-* ``ft_strlen``
-* ``ft_strlcpy``
-* ``ft_strlcat``
-* ``ft_strchr``
-* ``ft_strrchr``
-* ``ft_strncmp``
-* ``ft_strnstr``
-* ``ft_substr``
-* ``ft_strjoin``
-* ``ft_strtrim``
-* ``ft_split``
-* ``ft_strmapi``
-* ``ft_striteri``
+- [x] `ft_strlen`
+- [x] `ft_strlcpy`
+- [x] `ft_strlcat`
+- [x] `ft_strchr`
+- [x] `ft_strrchr`
+- [x] `ft_strncmp`
+- [x] `ft_strnstr`
+- [x] `ft_substr`
+- [x] `ft_strjoin`
+- [x] `ft_strtrim`
+- [x] `ft_split`
+- [x] `ft_strmapi`
+- [x] `ft_striteri`
 
 #### Functions to manipulate memory:
 
-* ``ft_calloc``
-* ``ft_memset``
-* ``ft_bzero``
-* ``ft_memcpy``
-* ``ft_memmove``
-* ``ft_memchr``
-* ``ft_memcmp``
-* ``ft_strdup``
+- [x] `ft_calloc`
+- [x] `ft_memset`
+- [x] `ft_bzero`
+- [x] `ft_memcpy`
+- [x] `ft_memmove`
+- [x] `ft_memchr`
+- [x] `ft_memcmp`
+- [x] `ft_strdup`
 
 #### Functions for numbers:
 
-* ``ft_atoi``
-* ``ft_itoa``
+- [x] `ft_atoi`
+- [x] `ft_itoa`
 
 #### Functions to write to a file descriptor:
 
-* ``ft_putchar_fd``
-* ``ft_putstr_fd``
-* ``ft_putendl_fd``
-* ``ft_putnbr_fd``
+- [x] `ft_putchar_fd`
+- [x] `ft_putstr_fd`
+- [x] `ft_putendl_fd`
+- [x] `ft_putnbr_fd`
 
 ## BONUS
 The bonus functions in libft are focused on list manipulation and are worth an additional 25 towards the final grade. To achieve a **grade of 125**, **all 9 bonus functions and 34 mandatory functions** must be completed accurately.
 
-* ``ft_lstnew``
-* ``ft_lstadd_front``
-* ``ft_lstsize``
-* ``ft_lstlast``
-* ``ft_lstadd_back``
-* ``ft_lstdelone``
-* ``ft_lstclear``
-* ``ft_lstiter``
-* ``ft_lstmap``
+- [x] `ft_lstnew`
+- [x] `ft_lstadd_front`
+- [x] `ft_lstsize`
+- [x] `ft_lstlast`
+- [x] `ft_lstadd_back`
+- [x] `ft_lstdelone`
+- [x] `ft_lstclear`
+- [x] `ft_lstiter`
+- [x] `ft_lstmap`
 
 ## NORMINETTE
 At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
