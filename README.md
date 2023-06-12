@@ -41,6 +41,11 @@ cd libft/libft
 make
 ```
 
+#### 3º - To use in your code, include the header
+```c
+#include "libft.h"
+```
+
 #### MAKEFILE RULES
 
 `make` - Compile libft **mandatory** files.
