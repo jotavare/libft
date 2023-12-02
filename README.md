@@ -61,7 +61,7 @@ make
 `make re` - Use rules `fclean` + `all`.
 
 ## MANDATORY
-The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100**.
+> The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100**.
 
 #### Check and manipulate characters:
 
@@ -112,7 +112,7 @@ The mandatory functions in libft include both functions from the standard C libr
 - [x] `ft_putnbr_fd`
 
 ## BONUS
-The bonus functions in libft are focused on list manipulation and are worth an additional 25 towards the final grade. To achieve a **grade of 125**, **all 9 bonus functions and 34 mandatory functions** must be completed accurately.
+> The bonus functions in libft are focused on list manipulation and are worth an additional 25 towards the final grade. To achieve a **grade of 125**, **all 9 bonus functions and 34 mandatory functions** must be completed accurately.
 
 - [x] `ft_lstnew`
 - [x] `ft_lstadd_front`
@@ -125,7 +125,7 @@ The bonus functions in libft are focused on list manipulation and are worth an a
 - [x] `ft_lstmap`
 
 ## NORMINETTE
-At 42 School, it is expected that almost every project is written following the Norm, which is the coding standard of the school.
+> At 42 School, it is expected that almost every project is written following the Norm, which is the coding standard of the school.
 
 ```
 - No for, do...while, switch, case, goto, ternary operators, or variable-length arrays allowed;
