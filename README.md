@@ -74,56 +74,61 @@ make
 | `ft_tolower` | Upper case to lower case letter conversion. |
 
 #### Manipulate strings:
-
-- [x] `ft_strlen`
-- [x] `ft_strlcpy`
-- [x] `ft_strlcat`
-- [x] `ft_strchr`
-- [x] `ft_strrchr`
-- [x] `ft_strncmp`
-- [x] `ft_strnstr`
-- [x] `ft_substr`
-- [x] `ft_strjoin`
-- [x] `ft_strtrim`
-- [x] `ft_split`
-- [x] `ft_strmapi`
-- [x] `ft_striteri`
+| Function | Description |
+| - | - |
+| `ft_strlen`   | Find length of string. |
+| `ft_strlcpy`  | Size-bounded string copying. |
+| `ft_strlcat`  | Size-bounded string concatenation. |
+| `ft_strchr`   | Locate character in string (first occurrence). |
+| `ft_strrchr`  | Locate character in string (last occurence). |
+| `ft_strncmp`  | Compare strings (size-bounded). |
+| `ft_strnstr`  | Locate a substring in a string (size-bounded) |
+| `ft_substr`   | Extract substring from string. |
+| `ft_strjoin`  | Concatenate two strings into a new string (with malloc). |
+| `ft_strtrim`  | Trim beginning and end of string with the specified characters. |
+| `ft_split`    | Split string, with specified character as delimiter, into an array of strings. |
+| `ft_strmapi`  | Create new string from modifying string with specified function. |
+| `ft_striteri` | Iterates through a string, enabling character and index manipulation. |
 
 #### Manipulate memory:
-
-- [x] `ft_calloc`
-- [x] `ft_memset`
-- [x] `ft_bzero`
-- [x] `ft_memcpy`
-- [x] `ft_memmove`
-- [x] `ft_memchr`
-- [x] `ft_memcmp`
-- [x] `ft_strdup`
+| Function | Description |
+| - | - |
+| `ft_calloc`  | Memory allocation. |
+| `ft_memset`  | Write a byte to a byte string. |
+| `ft_bzero`   | Write zeroes to a byte string. |
+| `ft_memcpy`  | Copy memory area. |
+| `ft_memmove` | Copy byte string. |
+| `ft_memchr`  | Locate byte in byte string. |
+| `ft_memcmp`  | Compare byte string. |
+| `ft_strdup`  | Save a copy of a string (with malloc). |
 
 #### Manipulate numbers:
-
-- [x] `ft_atoi`
-- [x] `ft_itoa`
+| Function | Description |
+| - | - |
+| `ft_atoi` | Convert ASCII string to integer. |
+| `ft_itoa` | Convert integer to ASCII string. |
 
 #### Write to a file descriptor:
-
-- [x] `ft_putchar_fd`
-- [x] `ft_putstr_fd`
-- [x] `ft_putendl_fd`
-- [x] `ft_putnbr_fd`
+| Function | Description |
+| - | - |
+| `ft_putchar_fd` | Output a character to given file. |
+| `ft_putstr_fd`  | Output string to given file. |
+| `ft_putendl_fd` | Output string to given file with newline. |
+| `ft_putnbr_fd`  | Output integer to given file. |
 
 ## BONUS
 > The bonus functions in libft are focused on list manipulation and are worth an additional 25 towards the final grade. To achieve a **grade of 125**, **all 9 bonus functions and 34 mandatory functions** must be completed accurately.
-
-- [x] `ft_lstnew`
-- [x] `ft_lstadd_front`
-- [x] `ft_lstsize`
-- [x] `ft_lstlast`
-- [x] `ft_lstadd_back`
-- [x] `ft_lstdelone`
-- [x] `ft_lstclear`
-- [x] `ft_lstiter`
-- [x] `ft_lstmap`
+| Function | Description |
+| - | - |
+| `ft_lstnew`       | Create new list. |
+| `ft_lstadd_front` | Add new element at beginning of list. |
+| `ft_lstadd_back`  | Add new element at end of list. |
+| `ft_lstsize`      | Count elements of a list. |
+| `ft_lstlast`      | Find last element of list. |
+| `ft_lstdelone`    | Delete element from list. |
+| `ft_lstclear`     | Delete sequence of elements of list from a starting point. |
+| `ft_lstiter`      | Apply function to content of all list's elements. |
+| `ft_lstmap`       | Apply function to content of all list's elements into new list. |
 
 ## NORMINETTE
 > At 42 School, it is expected that almost every project is written following the Norm, which is the coding standard of the school.
