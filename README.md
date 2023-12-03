@@ -76,18 +76,18 @@ make
 #### Manipulate strings:
 | Function | Description |
 | :- | :- |
-| `ft_strlen`   | Find length of string. |
+| `ft_strlen`   | Find the length of the string. |
 | `ft_strlcpy`  | Size-bounded string copying. |
 | `ft_strlcat`  | Size-bounded string concatenation. |
-| `ft_strchr`   | Locate character in string (first occurrence). |
-| `ft_strrchr`  | Locate character in string (last occurence). |
+| `ft_strchr`   | Locate the character in the string (first occurrence). |
+| `ft_strrchr`  | Locate the character in the string (last occurrence). |
 | `ft_strncmp`  | Compare strings (size-bounded). |
 | `ft_strnstr`  | Locate a substring in a string (size-bounded) |
-| `ft_substr`   | Extract substring from string. |
+| `ft_substr`   | Extract substring from a string. |
 | `ft_strjoin`  | Concatenate two strings into a new string (with malloc). |
-| `ft_strtrim`  | Trim beginning and end of string with the specified characters. |
+| `ft_strtrim`  | Trim the beginning and end of the string with the specified characters. |
 | `ft_split`    | Split string, with specified character as delimiter, into an array of strings. |
-| `ft_strmapi`  | Create new string from modifying string with specified function. |
+| `ft_strmapi`  | Create a new string by modifying the string with a specified function. |
 | `ft_striteri` | Iterates through a string, enabling character and index manipulation. |
 
 #### Manipulate memory:
@@ -105,16 +105,16 @@ make
 #### Manipulate numbers:
 | Function | Description |
 | :- | :- |
-| `ft_atoi` | Convert ASCII string to integer. |
+| `ft_atoi` | Convert the ASCII string to an integer. |
 | `ft_itoa` | Convert integer to ASCII string. |
 
 #### Write to a file descriptor:
 | Function | Description |
 | :- | :- |
-| `ft_putchar_fd` | Output a character to given file. |
-| `ft_putstr_fd`  | Output string to given file. |
+| `ft_putchar_fd` | Output a character to the given file. |
+| `ft_putstr_fd`  | Output string to the given file. |
 | `ft_putendl_fd` | Output string to given file with newline. |
-| `ft_putnbr_fd`  | Output integer to given file. |
+| `ft_putnbr_fd`  | Output integer to the given file. |
 
 ## BONUS
 > The bonus functions in libft are focused on list manipulation and are worth an additional 25 towards the final grade. To achieve a **grade of 125**, **all 9 bonus functions and 34 mandatory functions** must be completed accurately.
@@ -122,14 +122,14 @@ make
 | Function | Description |
 | :- | :- |
 | `ft_lstnew`       | Create new list. |
-| `ft_lstadd_front` | Add new element at beginning of list. |
-| `ft_lstadd_back`  | Add new element at end of list. |
+| `ft_lstadd_front` | Add a new element at the beginning of the list. |
+| `ft_lstadd_back`  | Add a new element at the end of the list. |
 | `ft_lstsize`      | Count elements of a list. |
-| `ft_lstlast`      | Find last element of list. |
-| `ft_lstdelone`    | Delete element from list. |
-| `ft_lstclear`     | Delete sequence of elements of list from a starting point. |
-| `ft_lstiter`      | Apply function to content of all list's elements. |
-| `ft_lstmap`       | Apply function to content of all list's elements into new list. |
+| `ft_lstlast`      | Find the last element of the list. |
+| `ft_lstdelone`    | Delete element from the list. |
+| `ft_lstclear`     | Delete the sequence of elements of the list from a starting point. |
+| `ft_lstiter`      | Apply function to the content of all list elements. |
+| `ft_lstmap`       | Apply function to the content of all list elements into a new list. |
 
 ## NORMINETTE
 > At 42 School, it is expected that almost every project is written following the Norm, which is the coding standard of the school.
