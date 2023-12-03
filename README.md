@@ -65,7 +65,7 @@ make
 
 #### Check and manipulate characters:
 | Function | Description |
-| - | - |
+| :- | :- |
 | `ft_isalpha` | Alphabetic character test. |
 | `ft_isdigit` | Decimal-digit character test. |
 | `ft_isalnum` | Alphanumeric character test. |
@@ -75,7 +75,7 @@ make
 
 #### Manipulate strings:
 | Function | Description |
-| - | - |
+| :- | :- |
 | `ft_strlen`   | Find length of string. |
 | `ft_strlcpy`  | Size-bounded string copying. |
 | `ft_strlcat`  | Size-bounded string concatenation. |
@@ -92,7 +92,7 @@ make
 
 #### Manipulate memory:
 | Function | Description |
-| - | - |
+| :- | :- |
 | `ft_calloc`  | Memory allocation. |
 | `ft_memset`  | Write a byte to a byte string. |
 | `ft_bzero`   | Write zeroes to a byte string. |
@@ -104,13 +104,13 @@ make
 
 #### Manipulate numbers:
 | Function | Description |
-| - | - |
+| :- | :- |
 | `ft_atoi` | Convert ASCII string to integer. |
 | `ft_itoa` | Convert integer to ASCII string. |
 
 #### Write to a file descriptor:
 | Function | Description |
-| - | - |
+| :- | :- |
 | `ft_putchar_fd` | Output a character to given file. |
 | `ft_putstr_fd`  | Output string to given file. |
 | `ft_putendl_fd` | Output string to given file with newline. |
@@ -118,8 +118,9 @@ make
 
 ## BONUS
 > The bonus functions in libft are focused on list manipulation and are worth an additional 25 towards the final grade. To achieve a **grade of 125**, **all 9 bonus functions and 34 mandatory functions** must be completed accurately.
+
 | Function | Description |
-| - | - |
+| :- | :- |
 | `ft_lstnew`       | Create new list. |
 | `ft_lstadd_front` | Add new element at beginning of list. |
 | `ft_lstadd_back`  | Add new element at end of list. |
