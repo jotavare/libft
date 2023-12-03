@@ -26,7 +26,8 @@ The first project at 42, libft, involves learning how the standard functions of 
 
 If you're a 42 student, it's highly recommended that you go through the process of writing your code and testing it yourself rather than copying and pasting code that you only partially understand. If you've completed your piscine, there's no reason why you couldn't tackle this project on your own! Be patient and thorough.
 
-<a href="https://github.com/jotavare/libft/blob/master/subject/en_subject_libft.pdf">Click here</a> for the subject of this project.
+- [Project subject](https://github.com/jotavare/libft/blob/master/subject/en_subject_libft.pdf)
+- [References](https://github.com/jotavare/42-resources#00-libft)
 
 ## HOW TO USE
 #### 1º - Clone the repository
