@@ -26,8 +26,8 @@ The first project at 42, libft, involves learning how the standard functions of 
 
 If you're a 42 student, it's highly recommended that you go through the process of writing your code and testing it yourself rather than copying and pasting code that you only partially understand. If you've completed your piscine, there's no reason why you couldn't tackle this project on your own! Be patient and thorough.
 
-- [Project subject](https://github.com/jotavare/libft/blob/master/subject/en_subject_libft.pdf)
-- [References](https://github.com/jotavare/42-resources#00-libft)
+- [Subject](https://github.com/jotavare/libft/blob/master/subject/en_subject_libft.pdf) `PDF`
+- [References](https://github.com/jotavare/42-resources#00-libft) `GitHub`
 
 ## HOW TO USE
 #### 1º - Clone the repository
@@ -64,13 +64,14 @@ make
 > The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100**.
 
 #### Check and manipulate characters:
-
-- [x] `ft_isalpha`
-- [x] `ft_isdigit`
-- [x] `ft_isalnum`
-- [x] `ft_isascii`
-- [x] `ft_toupper`
-- [x] `ft_tolower`
+| Function | Description |
+| - | - |
+| `ft_isalpha` | Alphabetic character test. |
+| `ft_isdigit` | Decimal-digit character test. |
+| `ft_isalnum` | Alphanumeric character test. |
+| `ft_isascii` | Test for ASCII character. |
+| `ft_toupper` | Lower case to upper case letter conversion. |
+| `ft_tolower` | Upper case to lower case letter conversion. |
 
 #### Manipulate strings:
 
