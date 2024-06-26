@@ -155,4 +155,4 @@ If you find any issues or have suggestions for improvements, feel free to fork t
 
 ## LICENSE
 
-This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/libft/blob/main/LICENSE) file.
+This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/libft/blob/master/LICENSE) file.
