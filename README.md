@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="https://github.com/jotavare/jotavare/blob/main/42/banner/new/42_libft_banner_new.png">
+  <img src="https://github.com/jotavare/jotavare/blob/main/42/banners/piscine_and_common_core/github_piscine_and_common_core_banner_libft.png">
 </p>
 
 <p align="center">
-	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/badge/evaluated-24%20%2F%2011%20%2F%202022-success?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/badge/score-125%20%2F%20100-success?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/github/languages/top/jotavare/libft?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/github/last-commit/jotavare/libft?color=%2312bab9&style=flat-square" />
+	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/badge/evaluated-24%20%2F%2011%20%2F%202022-success?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/badge/score-125%20%2F%20100-success?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/github/languages/top/jotavare/libft?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/github/last-commit/jotavare/libft?color=%2312bab9&style=flat-square"/>
 	<a href='https://www.linkedin.com/in/joaoptoliveira' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-100000?style=flat-square&logo=Linkedin&logoColor=white&labelColor=0A66C2&color=0A66C2'/></a>
 	<a href='https://profile.intra.42.fr/users/jotavare' target="_blank"><img alt='42' src='https://img.shields.io/badge/Porto-100000?style=flat-square&logo=42&logoColor=white&labelColor=000000&color=000000'/></a>
 </p>
@@ -18,18 +18,19 @@
 	<a href="#mandatory">Mandatory</a> •
 	<a href="#bonus">Bonus</a> •
 	<a href="#norminette">Norminette</a> •
+	<a href="#contributing">Contributing</a> •
 	<a href="#license">License</a>
 </p>
 
 ## ABOUT
 The first project at 42, libft, involves learning how the standard functions of C programming work by writing them from scratch and creating a personal library. This project is vital as the library will be used in future assignments at 42.
 
-If you're a 42 student, it's highly recommended that you go through the process of writing your own code and testing it yourself rather than copying and pasting code that you only partially understand. If you've successfully completed your piscine, there's no reason why you couldn't tackle this project on your own! Be patient and thorough.
+If you're a 42 student, it's highly recommended that you go through the process of writing your code and testing it yourself rather than copying and pasting code that you only partially understand. If you've completed your piscine, there's no reason why you couldn't tackle this project on your own! Be patient and thorough.
 
-<a href="https://github.com/jotavare/libft/blob/master/subject/en_subject_libft.pdf">Click here</a> for the subject of this project.
+- [Subject](https://github.com/jotavare/libft/blob/master/subject/en_subject_libft.pdf) `PDF`
+- [References](https://github.com/jotavare/42-resources#00-libft) `GitHub`
 
 ## HOW TO USE
-#### COMPILATION
 #### 1º - Clone the repository
 ```bash
 git clone git@github.com:jotavare/libft.git
@@ -61,87 +62,97 @@ make
 `make re` - Use rules `fclean` + `all`.
 
 ## MANDATORY
-The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100**.
+> The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100**.
 
 #### Check and manipulate characters:
-
-- [x] `ft_isalpha`
-- [x] `ft_isdigit`
-- [x] `ft_isalnum`
-- [x] `ft_isascii`
-- [x] `ft_toupper`
-- [x] `ft_tolower`
+| Function | Description |
+| :- | :- |
+| `ft_isalpha` | Alphabetic character test. |
+| `ft_isdigit` | Decimal-digit character test. |
+| `ft_isalnum` | Alphanumeric character test. |
+| `ft_isascii` | Test for ASCII character. |
+| `ft_toupper` | Lower case to upper case letter conversion. |
+| `ft_tolower` | Upper case to lower case letter conversion. |
 
 #### Manipulate strings:
-
-- [x] `ft_strlen`
-- [x] `ft_strlcpy`
-- [x] `ft_strlcat`
-- [x] `ft_strchr`
-- [x] `ft_strrchr`
-- [x] `ft_strncmp`
-- [x] `ft_strnstr`
-- [x] `ft_substr`
-- [x] `ft_strjoin`
-- [x] `ft_strtrim`
-- [x] `ft_split`
-- [x] `ft_strmapi`
-- [x] `ft_striteri`
+| Function | Description |
+| :- | :- |
+| `ft_strlen`   | Find the length of the string. |
+| `ft_strlcpy`  | Size-bounded string copying. |
+| `ft_strlcat`  | Size-bounded string concatenation. |
+| `ft_strchr`   | Locate the character in the string (first occurrence). |
+| `ft_strrchr`  | Locate the character in the string (last occurrence). |
+| `ft_strncmp`  | Compare strings (size-bounded). |
+| `ft_strnstr`  | Locate a substring in a string (size-bounded) |
+| `ft_substr`   | Extract substring from a string. |
+| `ft_strjoin`  | Concatenate two strings into a new string (with malloc). |
+| `ft_strtrim`  | Trim the beginning and end of the string with the specified characters. |
+| `ft_split`    | Split string, with specified character as delimiter, into an array of strings. |
+| `ft_strmapi`  | Create a new string by modifying the string with a specified function. |
+| `ft_striteri` | Iterates through a string, enabling character and index manipulation. |
 
 #### Manipulate memory:
-
-- [x] `ft_calloc`
-- [x] `ft_memset`
-- [x] `ft_bzero`
-- [x] `ft_memcpy`
-- [x] `ft_memmove`
-- [x] `ft_memchr`
-- [x] `ft_memcmp`
-- [x] `ft_strdup`
+| Function | Description |
+| :- | :- |
+| `ft_calloc`  | Memory allocation. |
+| `ft_memset`  | Write a byte to a byte string. |
+| `ft_bzero`   | Write zeroes to a byte string. |
+| `ft_memcpy`  | Copy memory area. |
+| `ft_memmove` | Copy byte string. |
+| `ft_memchr`  | Locate byte in byte string. |
+| `ft_memcmp`  | Compare byte string. |
+| `ft_strdup`  | Save a copy of a string (with malloc). |
 
 #### Manipulate numbers:
-
-- [x] `ft_atoi`
-- [x] `ft_itoa`
+| Function | Description |
+| :- | :- |
+| `ft_atoi` | Convert the ASCII string to an integer. |
+| `ft_itoa` | Convert integer to ASCII string. |
 
 #### Write to a file descriptor:
-
-- [x] `ft_putchar_fd`
-- [x] `ft_putstr_fd`
-- [x] `ft_putendl_fd`
-- [x] `ft_putnbr_fd`
+| Function | Description |
+| :- | :- |
+| `ft_putchar_fd` | Output a character to the given file. |
+| `ft_putstr_fd`  | Output string to the given file. |
+| `ft_putendl_fd` | Output string to given file with newline. |
+| `ft_putnbr_fd`  | Output integer to the given file. |
 
 ## BONUS
-The bonus functions in libft are focused on list manipulation and are worth an additional 25 towards the final grade. To achieve a **grade of 125**, **all 9 bonus functions and 34 mandatory functions** must be completed accurately.
+> The bonus functions in libft are focused on list manipulation and are worth an additional 25 towards the final grade. To achieve a **grade of 125**, **all 9 bonus functions and 34 mandatory functions** must be completed accurately.
 
-- [x] `ft_lstnew`
-- [x] `ft_lstadd_front`
-- [x] `ft_lstsize`
-- [x] `ft_lstlast`
-- [x] `ft_lstadd_back`
-- [x] `ft_lstdelone`
-- [x] `ft_lstclear`
-- [x] `ft_lstiter`
-- [x] `ft_lstmap`
+| Function | Description |
+| :- | :- |
+| `ft_lstnew`       | Create new list. |
+| `ft_lstadd_front` | Add a new element at the beginning of the list. |
+| `ft_lstadd_back`  | Add a new element at the end of the list. |
+| `ft_lstsize`      | Count elements of a list. |
+| `ft_lstlast`      | Find the last element of the list. |
+| `ft_lstdelone`    | Delete element from the list. |
+| `ft_lstclear`     | Delete the sequence of elements of the list from a starting point. |
+| `ft_lstiter`      | Apply function to the content of all list elements. |
+| `ft_lstmap`       | Apply function to the content of all list elements into a new list. |
 
 ## NORMINETTE
-At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
+> At 42 School, it is expected that almost every project is written following the Norm, which is the coding standard of the school.
 
 ```
-- No for, do...while, switch, case, goto, ternary operators and variable-length arrays are allowed
-- Each function must be a maximum of 25 lines, not counting the function's curly brackets
-- Each line must be at most 80 columns wide, comments included
-- A function can take 4 named parameters maximum
-- No assigns and declarations in the same line (unless static)
-- You can't declare more than 5 variables per function
+- No for, do...while, switch, case, goto, ternary operators, or variable-length arrays allowed;
+- Each function must be a maximum of 25 lines, not counting the function's curly brackets;
+- Each line must be at most 80 columns wide, with comments included;
+- A function can take 4 named parameters maximum;
+- No assigns and declarations in the same line (unless static);
+- You can't declare more than 5 variables per function;
 - ...
 ```
 
-* [42 Norms](https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf) - Information about 42 code norms. `PDF`
-* [Norminette](https://github.com/42School/norminette) - Tool by 42, to respect the code norm. `GitHub`
+* [42 Norms](https://github.com/42School/norminette/blob/master/pdf/en.norm.pdf) - Information about 42 code norms. `PDF`
+* [Norminette](https://github.com/42School/norminette) - Tool to respect the code norm, made by 42. `GitHub`
 * [42 Header](https://github.com/42Paris/42header) - 42 header for Vim. `GitHub`
 
+## CONTRIBUTING
+
+If you find any issues or have suggestions for improvements, feel free to fork the repository and open an issue or submit a pull request.
+
 ## LICENSE
-<p>
-This work is published under the terms of <a href="https://github.com/jotavare/jotavare/blob/main/LICENSE">42 Unlicense</a>.
-</p>
+
+This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/libft/blob/master/LICENSE) file.
