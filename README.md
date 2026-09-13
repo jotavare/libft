@@ -50,7 +50,7 @@ make
 
 `make bonus` - Compile libft **bonus** files.
 
-`make all` - Compile **mandatory** + **bonus** files.
+`make all` - Same as `make`, compile libft **mandatory** files.
 
 `make clean` - Delete all .o (object files) files.
 
