@@ -18,6 +18,7 @@
 	<a href="#mandatory">Mandatory</a> •
 	<a href="#bonus">Bonus</a> •
 	<a href="#norminette">Norminette</a> •
+	<a href="#debugging">Debugging</a> •
 	<a href="#contributing">Contributing</a> •
 	<a href="#license">License</a>
 </p>
@@ -26,6 +27,9 @@
 The first project at 42, libft, involves learning how the standard functions of C programming work by writing them from scratch and creating a personal library. This project is vital as the library will be used in future assignments at 42.
 
 If you're a 42 student, it's highly recommended that you go through the process of writing your code and testing it yourself rather than copying and pasting code that you only partially understand. If you've completed your piscine, there's no reason why you couldn't tackle this project on your own! Be patient and thorough.
+
+> [!NOTE]
+> For the rest of the projects and exams in the cursus, <a href="https://github.com/jotavare/42-common-core">click here</a>.
 
 ## HOW TO USE
 #### 1º - Clone the repository
@@ -146,6 +150,25 @@ make
 * [42 Norms](https://github.com/42School/norminette/blob/master/pdf/en.norm.pdf) - Information about 42 code norms. `PDF`
 * [Norminette](https://github.com/42School/norminette) - Tool to respect the code norm, made by 42. `GitHub`
 * [42 Header](https://github.com/42Paris/42header) - 42 header for Vim. `GitHub`
+
+## DEBUGGING
+> Several functions here allocate memory, so every leak and every read past the
+> end of a buffer has to be found before the evaluation.
+
+Compile with `-g` to keep the symbols the debuggers need:
+
+```bash
+cc -Wall -Wextra -Werror -g main.c libft.a -o test
+```
+
+`gdb ./test` - Step through a function and inspect state. Useful for the recursive and pointer-heavy ones, like `ft_split` and `ft_lstmap`.
+
+`valgrind --leak-check=full ./test` - Report memory that was allocated and never freed. Everything returned by `ft_strdup`, `ft_substr`, `ft_strjoin`, `ft_strtrim`, `ft_strmapi`, `ft_itoa`, `ft_calloc`, `ft_split`, `ft_lstnew` and `ft_lstmap` is the caller's to free.
+
+`valgrind --track-origins=yes ./test` - Trace an uninitialised value back to where it came from.
+
+* [GDB](https://www.sourceware.org/gdb/) - The GNU debugger. `Website`
+* [Valgrind](https://valgrind.org/docs/manual/quick-start.html) - Quick start guide. `Website`
 
 ## CONTRIBUTING
 
