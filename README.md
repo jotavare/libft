@@ -62,6 +62,8 @@ make
 
 `make re` - Use rules `fclean` + `all`.
 
+`make so` - Build `libft.so`, a shared library, instead of the static archive. Not required by the subject.
+
 ## MANDATORY
 > The mandatory functions in libft include both functions from the standard C library and other functions that are useful for character, string, and memory manipulation. These **34 mandatory functions** are essential to achieving a **grade of 100**.
 
