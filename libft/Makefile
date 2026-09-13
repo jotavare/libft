@@ -40,5 +40,5 @@ fclean: clean
 re: fclean all
 
 so:
-	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRCS) $(BONUS_SRCS)
-	gcc -nostartfiles -shared -o libft.so $(OBJS) $(BONUS_OBJS)
+	$(CC) -c -fPIC $(CFLAGS) $(SRCS) $(BONUS_SRCS)
+	$(CC) -shared -o libft.so $(OBJS) $(BONUS_OBJS)
